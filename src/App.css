@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+
+.card {
+  padding : 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+
+.input-field{
+  border-radius: 10px;
+  border: 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-size: 25px;
+  margin: 10px;
+}
+
+.btn{
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #dfe9f3, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f7f9fc;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.card {
+  margin-top: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 7px 20px;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+}
+
+.input-field {
+  width: 80%;
+  padding: 10px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #1976d2;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0d47a1;
+}
